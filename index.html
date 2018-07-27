@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Start Here</title>
+</head>
+<body>
+<p id="boss"> The lord is good</p>
+
+<script type="text/javascript">
+var name = "Valentine";
+var age = 26;
+var ham = "Unizik Awka";
+
+document.write(name + " Ejidike Ugochukwu is " + age + " and he studied in " + ham);
+
+document.write(" He told me to,\" be careful always\"" + " <br />");
+
+
+function vally(){
+	alert("Danger Line!!! Abort?");
+	}
+	
+function stop(a,b){
+		var c = a+b;
+		return c;
+		}
+
+document.write(stop(7,8) + "<br />");
+
+function call(){
+	document.write(" Obi is a boy" + " <br />");
+	}
+function dall(){
+		document.write("Ada is a girl" + " <br />");
+		}
+
+function all(){
+	call();
+	dall();
+}
+
+all();
+
+function cow(a,b,c,d){
+	var f = 2 *( (a/b)-c + d);
+	return f;
+	}
+	document.write(cow(2,5,2,45)+ "<br />");
+	
+	
+	function jude(q,r){
+		var z = (7*q + 4*r);
+		return z;
+		}
+		jude(5,6);
+	
+	function doss(j,k){
+		var n = (9*j -2*k);
+			return n;
+			}
+			doss(7,4);
+			
+			if(jude<=doss){
+			document.write("This is all madness my dear");
+			}else{document.write("Guddamit, Javascript all the way" + "<br />");
+			}
+			
+	var z ="peter";
+	var f ="chuma";
+	if (z=="peter"){
+	if (f=="chuma"){
+	document.write("Nesting in javascript" + "<br />");
+	}else{ document.write("Its not good at all" + "<br />");
+	}
+	}
+	
+	switch (z){
+		case "andrew":
+		document.write("welcome to program Mr andrew");
+		break;
+		
+		case "charles":
+		document.write("welcome to program Mr charles");
+		break;
+		
+		default: 
+		document.write("welcome to program Sir. <br />");
+		}
+	
+	// for loop
+	for(x=0;x<4;x++){
+	document.write("I love Amaka Ucheagwu <br />");
+	}
+	
+	for(x=0;x<6;x+=2){
+	document.write("NCCF is a great family <br />");
+	}
+	
+	// while loop
+var w = 1;
+ while (w<=7){
+	document.write(w + " Campus life has up to now been any important life flow <br />")
+	w++;
+ }
+ // do loop
+var v = 3
+	do{
+		document.write( v + " Nothing easy at all <br />")
+		v++;
+	}while(v <= 9);
+	
+</script>
+<form>
+
+<input type="button" value="Do not click" onclick="vally()">
+
+</form>
+<button type="button" onclick="vally()">Javascript</button>
+<p id="log"> The lord is good</p>
+
+<button type="button" onclick="document.getElementById('sky').innerHTML= Date()">Display date and time</button>
+<p id="sky"></p>
+
+
+
+ 
+</body>
+</html>
